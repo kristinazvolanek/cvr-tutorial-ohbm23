@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 # Change path to your local directory
 ######################################
 # Path to sample data from CVR tutorial download. Outputs from this script will be saved here too.
-path = '/Users/kzg7316/Desktop/cvr-tutorial-ohbm23/'
+path = '/Users/kzg7316/Desktop/cvr-tutorial-ohbm23/sample_data/'
 
 #%% Import unprocessed physiological data
 data = np.genfromtxt(path + 'sub-009_ses-02_task-breathhold_physio_dec.tsv.gz')

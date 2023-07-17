@@ -6,7 +6,7 @@
 ###############################################################################
 
 # Directories
-inputdir="/Users/kzg7316/Desktop/cvr-tutorial-ohbm23/sample_dataa"
+inputdir="/Users/kzg7316/Desktop/cvr-tutorial-ohbm23/sample_data"
 outputdir="/Users/kzg7316/Desktop/cvr-tutorial-ohbm23/phys2cvr_outputs"
 
 # Phys2cvr inputs
