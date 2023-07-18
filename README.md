@@ -2,7 +2,7 @@
 
 This repository contains the example code to follow along with the OHBM 2023 Educational Course Tutorial _One person's noise is another person's signal: hands-on tutorial to model cerebrovascular reactivity in BOLD fMRI data_, part of the Educational Course [_Physiologic fMRI signals: friend or foe? How and why to measure, model, and account for physiology_](https://ww6.aievolution.com/hbm2301/index.cfm?do=ev.viewEv&ev=1241). See [here](https://physiopy.github.io/ohbm23_tutorials/) for the other tutorials in the same Educational Course.
 
-Thank you to Stefano Moia for preparing these instructions! If you followed along with his tutorial in this course (see [here](https://github.com/smoia/ohbm2023noisetutorial/tree/master)), you will only need to install `phys2cvr`.
+Thank you to Stefano Moia for preparing these instructions! If you followed setup your laptop and followed along with his tutorial in this course (see [here](https://github.com/smoia/ohbm2023noisetutorial/tree/master)), you will only need to install `phys2cvr`.
 
 **Note that building wxPython may take 30-45 minutes depending on your system, so plan accordingly!**
 
@@ -16,12 +16,12 @@ You also need to download the files in this repository, either [zipped in a pack
 
 ## 1. Optional - Set up a virtual environment
 The best way to ensure the software functioning without changing anything in your system is using a virtual environment.
-For that, first install `virtualenv`:
+For that, first install _virtualenv_:
 
 ``` shell
 pip install -U virtualenv
 ```
-(Note you might need to use `pip3` instead of `pip`, depending on your OS and setup, to work with python 3)
+(Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 Then, create and activate the virtual environment - in this case I called it _ohbm23cvr_, but you can use a different name:
 
@@ -44,7 +44,7 @@ While you can find [detailed instructions here](https://wxpython.org/pages/downl
 ``` shell
 pip install -U wxPython
 ```
-(Note you might need to use `pip3` instead of `pip`, depending on your OS and setup, to work with python 3)
+(Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 ### Install _wxPython_ on Linux  
 **This might take awhile!! (~30-45 minutes)**
@@ -55,25 +55,25 @@ pip install -U \
     -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-20.04 \
     wxPython==4.2.0
 ```
-(Note you might need to use `pip3` instead of `pip`, depending on your OS and setup, to work with python 3)
+(Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 ### Install all other packages
-You also need to install `peakdet` and `phys2cvr`. Optionally, you can also install `ipython`, a nice CLI environment to work with python.
+You also need to install _peakdet_ and _phys2cvr_. Optionally, you can also install _ipython_, a nice CLI environment to work with python.
 
 The fastest option is to use the _requirements.txt_ file in this repository:
 ``` shell
 pip install -U -r path/to/requirements.txt
 ```
-(Note you might need to use `pip3` instead of `pip`, depending on your OS and setup, to work with python 3)
+(Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 Alternatively, you can install directly what you need. Please ensure to install matplotlib version 3.6.3 or below, otherwise you will incur a deprecation error:
 ``` shell
 pip install -U peakdet phys2cvr matplotlib==3.6.3 ipython
 ```
-(Note you might need to use `pip3` instead of `pip`, depending on your OS and setup, to work with python 3)
+(Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 ## 3. Check the installation
-Within the virtual environment, you can either call _pip_ to list your packages (`pip list` or `pip3 list`), or open _ipython_ and import `peakdet` and `phys2cvr`
+Within the virtual environment, you can either call _pip_ to list your packages (`pip list` or `pip3 list`), or open _ipython_ and import _peakdet_ and _phys2cvr_
 ```python
 import peakdet
 import phys2cvr
