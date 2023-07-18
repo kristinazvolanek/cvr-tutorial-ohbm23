@@ -4,7 +4,7 @@ This repository contains the example code to follow along with the OHBM 2023 Edu
 
 Thank you to Stefano Moia for preparing these instructions! If you followed setup your laptop and followed along with his tutorial in this course (see [here](https://github.com/smoia/ohbm2023noisetutorial/tree/master)), you will only need to install `phys2cvr`.
 
-**Note that building wxPython may take 30-45 minutes depending on your system, so plan accordingly!**
+:heavy_exclamation_mark:**Note that building wxPython may take 30-45 minutes depending on your system, so plan accordingly!**:heavy_exclamation_mark:
 
 # Laptop setup
 
