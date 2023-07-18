@@ -2,7 +2,7 @@
 
 This repository contains the example code to follow along with the OHBM 2023 Educational Course Tutorial _One person's noise is another person's signal: hands-on tutorial to model cerebrovascular reactivity in BOLD fMRI data_, part of the Educational Course [_Physiologic fMRI signals: friend or foe? How and why to measure, model, and account for physiology_](https://ww6.aievolution.com/hbm2301/index.cfm?do=ev.viewEv&ev=1241). See [here](https://physiopy.github.io/ohbm23_tutorials/) for the other tutorials in the same Educational Course.
 
-Thank you to Stefano Moia for preparing these instructions! If you followed setup your laptop and followed along with his tutorial in this course (see [here](https://github.com/smoia/ohbm2023noisetutorial/tree/master)), you will only need to install `phys2cvr`.
+Thank you to Stefano Moia for preparing these instructions! If you setup your laptop and followed along with his tutorial in this course (see [here](https://github.com/smoia/ohbm2023noisetutorial/tree/master)), you will only need to install `phys2cvr`.
 
 :heavy_exclamation_mark:**Note that building wxPython may take 30-45 minutes depending on your system, so plan accordingly!**:heavy_exclamation_mark:
 
