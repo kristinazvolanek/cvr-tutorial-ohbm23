@@ -47,7 +47,7 @@ pip install -U wxPython
 (Note you might need to use _pip3_ instead of _pip_, depending on your OS and setup, to work with python 3)
 
 ### Install _wxPython_ on Linux  
-**This might take awhile!! (~30-45 minutes)**
+**This might take awhile!! (~30-45 minutes)**  
 Check [this folder](https://extras.wxpython.org/wxPython4/extras/linux/) for the right python package, depending on the version of GTK you are using, as well as your OS, then using the link to the right folder, install _wxPython_ version _4.2.0_, if possible.
 In this example, I will assume we're working with GTK3 on Ubuntu 20.04:
 ``` shell
