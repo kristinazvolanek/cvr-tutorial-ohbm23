@@ -16,6 +16,7 @@ data = np.genfromtxt(path + 'sub-009_ses-02_task-breathhold_physio_dec.tsv.gz')
 # Plot CO2 data
 co2_orig = data[:,4]
 plt.plot(co2_orig)
+#plt.show()
 
 # Change scale from Volts to mmHg (see https://doi.org/10.1016/j.neuroimage.2021.117914)
 co2=co2_orig*71.2
