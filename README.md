@@ -88,3 +88,10 @@ You can downlaod some files that contain data for the tutorial - we will be usin
 All the files can be downloaded in a zip folder [here](https://files.de-1.osf.io/v1/resources/3txqr/providers/osfstorage/64a2071867aff81111edfe26/?zip=). 
 
 This folder includes [BOLD fMRI data](https://osf.io/3txqr/files/osfstorage/64a2055138091110953c3347), associated [physiological data](https://osf.io/3txqr/files/osfstorage/64a2045ca2a2f4115443670b) including CO2, [motion parameters](https://osf.io/3txqr/files/osfstorage/64a20459a2a2f411544366ff), [brain mask](https://osf.io/3txqr/files/osfstorage/64a2045738091110953c32fa), and [gray matter mask](https://osf.io/3txqr/files/osfstorage/64a204576513ba100d3a3bfe).
+
+# In this repository
+
+_prep_co2.py_: Python script that uses peakdet to identify end-tidal CO2. The outputs of this script are needed to run the lagged-GLM with phys2cvr. You can run this script in an IDE like Spyder, or line-by-line from the terminal with iPython.
+_run_phys2cvr.sh_: executable shell script that can be used to automate phys2cvr. You will need to change the input directory to where your input files are located, and the output directory to the path where you want the phys2cvr outputs saved.
+_viridis_pos.cmap_: half of viridis colormap that can be loaded to fsleyes for visualizing lag maps. Set as the _negative_ colorbar in fsleyes.
+_viridis_neg.cmap_: half of viridis colormap that can be loaded to fsleyes for visualizing lag maps. Set as the _positive_ colorbar in fsleyes.
