@@ -91,7 +91,7 @@ This folder includes [BOLD fMRI data](https://osf.io/3txqr/files/osfstorage/64a2
 
 # In this repository
 
-* _prep_co2.py_: Python script that uses peakdet to identify end-tidal CO2. The outputs of this script are needed to run the lagged-GLM with phys2cvr. You can run this script in an IDE like Spyder, or line-by-line from the terminal with iPython.
+* _prep_co2.py_: Python script that uses peakdet to identify end-tidal CO2 peaks. The outputs of this script are needed to run the lagged-GLM with phys2cvr. You can run this script interactively in a Python environment like Spyder, or line-by-line from the terminal with iPython.
 * _run_phys2cvr.sh_: executable shell script that can be used to automate phys2cvr. You will need to change the input directory to where your input files are * located, and the output directory to the path where you want the phys2cvr outputs saved.
 * _viridis_pos.cmap_: half of viridis colormap that can be loaded to fsleyes for visualizing lag maps. Set as the _negative_ colorbar in fsleyes.
 * _viridis_neg.cmap_: half of viridis colormap that can be loaded to fsleyes for visualizing lag maps. Set as the _positive_ colorbar in fsleyes.
