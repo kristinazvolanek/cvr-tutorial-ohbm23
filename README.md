@@ -36,7 +36,7 @@ Once you activated the virtual environment, you can proceed with package install
 
 ## 2. Package installation
 
-You will need to install a few python packages. First and foremost, [_wxPython_](). Its installation depends on the OS you are using.
+You will need to install a few python packages. First and foremost, _wxPython_. Its installation depends on the OS you are using.
 While you can find [detailed instructions here](https://wxpython.org/pages/downloads/), following is the summary.
 
 ### Install _wxPython_ on Windows and macOS
